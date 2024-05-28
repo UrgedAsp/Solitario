@@ -1,4 +1,4 @@
-# Solitario
-Juego solitario realizado con javascript puro en 12 dias
+# Solitaire
+Solitaire game made in Javascript Vanilla
 <hr>
 <img src="./img/Captura.PNG">
