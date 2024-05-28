@@ -11,7 +11,7 @@ for (let i = 0; i < cartas.length; i++) {
     img.src = cartas[i].imagen;
     img.className = cartas[i].imagen;
     img.style.position = "absolute";
-    img.style.borderRadius = "10%";
+    img.style.borderRadius = "5%";
     img.width = 150;
     img.height = 180;
     img.id = "cartas" + (i + 1);
@@ -222,7 +222,7 @@ let pImgFila2 = document.getElementById('fila2').firstChild;
 // TAPA LAS CARTAS MENOS LA ÚLTIMA
 let pImgFila2Tapadas = document.getElementById('fila2').childNodes;
 for (let i = 0; i < pImgFila2Tapadas.length; i++) {
-    pImgFila2Tapadas[i].src = './img/NN.PNG';
+    pImgFila2Tapadas[i].src = './img/NN.svg';
     if(i == pImgFila2Tapadas.length - 1 ){
         pImgFila2Tapadas[i].src = pImgFila2Tapadas[i].className;
     }
@@ -300,7 +300,7 @@ let pImgFila3 = document.getElementById('fila3').firstChild;
 // TAPA LAS CARTAS MENOS LA ÚLTIMA
 let pImgFila3Tapadas = document.getElementById('fila3').childNodes;
 for (let i = 0; i < pImgFila3Tapadas.length; i++) {
-    pImgFila3Tapadas[i].src = './img/NN.PNG';
+    pImgFila3Tapadas[i].src = './img/NN.svg';
     if(i == pImgFila3Tapadas.length - 1 ){
         pImgFila3Tapadas[i].src = pImgFila3Tapadas[i].className;
     }
@@ -376,7 +376,7 @@ let pImgFila4 = document.getElementById('fila4').firstChild;
 // TAPA LAS CARTAS MENOS LA ÚLTIMA
 let pImgFila4Tapadas = document.getElementById('fila4').childNodes;
 for (let i = 0; i < pImgFila4Tapadas.length; i++) {
-    pImgFila4Tapadas[i].src = './img/NN.PNG';
+    pImgFila4Tapadas[i].src = './img/NN.svg';
     if(i == pImgFila4Tapadas.length - 1 ){
         pImgFila4Tapadas[i].src = pImgFila4Tapadas[i].className;
     }
@@ -453,7 +453,7 @@ let pImgFila5 = document.getElementById('fila5').firstChild;
 // TAPA LAS CARTAS MENOS LA ÚLTIMA
 let pImgFila5Tapadas = document.getElementById('fila5').childNodes;
 for (let i = 0; i < pImgFila5Tapadas.length; i++) {
-    pImgFila5Tapadas[i].src = './img/NN.PNG';
+    pImgFila5Tapadas[i].src = './img/NN.svg';
     if(i == pImgFila5Tapadas.length - 1 ){
         pImgFila5Tapadas[i].src = pImgFila5Tapadas[i].className;
     }
@@ -532,7 +532,7 @@ let pImgFila6 = document.getElementById('fila6').firstChild;
 // TAPA LAS CARTAS MENOS LA ÚLTIMA
 let pImgFila6Tapadas = document.getElementById('fila6').childNodes;
 for (let i = 0; i < pImgFila6Tapadas.length; i++) {
-    pImgFila6Tapadas[i].src = './img/NN.PNG';
+    pImgFila6Tapadas[i].src = './img/NN.svg';
     if(i == pImgFila6Tapadas.length - 1 ){
         pImgFila6Tapadas[i].src = pImgFila6Tapadas[i].className;
     }
@@ -611,7 +611,7 @@ let pImgFila7 = document.getElementById('fila7').firstChild;
 // TAPA LAS CARTAS MENOS LA ÚLTIMA
 let pImgFila7Tapadas = document.getElementById('fila7').childNodes;
 for (let i = 0; i < pImgFila7Tapadas.length; i++) {
-    pImgFila7Tapadas[i].src = './img/NN.PNG';
+    pImgFila7Tapadas[i].src = './img/NN.svg';
     if(i == pImgFila7Tapadas.length - 1 ){
         pImgFila7Tapadas[i].src = pImgFila7Tapadas[i].className;
     }

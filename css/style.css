@@ -1,35 +1,32 @@
 body{
-    background: #c31432;
-    background: -webkit-linear-gradient(to right, #240b36, #c31432);
-    background: linear-gradient(to right, #240b36, #c31432);
+    margin: 0;
+    padding: 0;
 }
 #container{
     margin: auto;
-    margin-top: 50px;
-    height: 700px;
-    width: 1200px;
-    background: chocolate;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0, 100, 0);
     position: relative;
 }
 #barajitaT{
-    border-radius: 10%;
+    border-radius: 5%;
     top: 20px;
     left: 20px;
     position: relative;
-    background-image: url('../img/NN.PNG');
+    background-image: url('../img/NN.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 180px;
     width: 150px;
 }
 #barajitaD{
-    border-radius: 10%;
+    border-radius: 5%;
     top: 20px;
     left: 190px;
     position: absolute;
-    background-image: url('../img/TuLogoPapi.PNG');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -37,54 +34,73 @@ body{
     width: 150px;
 }
 #diamantes{
-    background-image: url('../img/DIAMANTE.PNG');
-    background-position: center;
     border: 1px solid black;
-    border-radius: 10%;
+    border-radius: 5%;
     top: 20px;
     left: 510px;
     position: absolute;
     height: 180px;
     width: 150px;
+    display: flex;
+    img{
+        min-width: 70%;
+        min-height: 70%;
+        max-width: 150px;
+        max-height: max-content;
+    }
 }
 #picas{
-    background-image: url('../img/PICA.PNG');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain;
     border: 1px solid black;
-    border-radius: 10%;
+    border-radius: 5%;
     top: 20px;
     left: 670px;
     position: absolute;
     height: 180px;
     width: 150px;
+    display: flex;
+    img{
+        min-width: 70%;
+        min-height: 70%;
+        max-width: 150px;
+        max-height: max-content;
+    }
 }
 #treboles{
-    background-image: url('../img/TREBOL.PNG');
-    background-position: center;
     border: 1px solid black;
-    border-radius: 10%;
+    border-radius: 5%;
     top: 20px;
     left: 835px;
     position: absolute;
     height: 180px;
     width: 150px;
+    display: flex;
+    img{
+        min-width: 70%;
+        min-height: 70%;
+        max-width: 150px;
+        max-height: max-content;
+    }
 }
 #corazones{
-    background-image: url('../img/CORAZON.PNG');
-    background-position: center;
     border: 1px solid black;
-    border-radius: 10%;
+    border-radius: 5%;
     top: 20px;
     left: 1000px;
     position: absolute;
     height: 180px;
     width: 150px;
+    display: flex;
+    img{
+        margin: auto;
+        min-width: 70%;
+        min-height: 70%;
+        max-width: 150px;
+        max-height: max-content;
+    }
 }
 #fila1{
-    border: 1px solid black;
-    border-radius: 10%;
+    /* border: 1px solid black; */
+    border-radius: 5%;
     top: 220px;
     left: 20px;
     position: absolute;
@@ -92,8 +108,8 @@ body{
     width: 150px;
 }
 #fila2{
-    border: 1px solid black;
-    border-radius: 10%;
+    /* border: 1px solid black; */
+    border-radius: 5%;
     top: 220px;
     left: 185px;
     position: absolute;
@@ -101,8 +117,8 @@ body{
     width: 150px;
 }
 #fila3{
-    border: 1px solid black;
-    border-radius: 10%;
+    /* border: 1px solid black; */
+    border-radius: 5%;
     top: 220px;
     left: 350px;
     position: absolute;
@@ -110,8 +126,8 @@ body{
     width: 150px;
 }
 #fila4{
-    border: 1px solid black;
-    border-radius: 10%;
+    /* border: 1px solid black; */
+    border-radius: 5%;
     top: 220px;
     left: 510px;
     position: absolute;
@@ -119,8 +135,8 @@ body{
     width: 150px;
 }
 #fila5{
-    border: 1px solid black;
-    border-radius: 10%;
+    /* border: 1px solid black; */
+    border-radius: 5%;
     top: 220px;
     left: 670px;
     position: absolute;
@@ -128,8 +144,8 @@ body{
     width: 150px;
 }
 #fila6{
-    border: 1px solid black;
-    border-radius: 10%;
+    /* border: 1px solid black; */
+    border-radius: 5%;
     top: 220px;
     left: 835px;
     position: absolute;
@@ -137,8 +153,8 @@ body{
     width: 150px;
 }
 #fila7{
-    border: 1px solid black;
-    border-radius: 10%;
+    /* border: 1px solid black; */
+    border-radius: 5%;
     top: 220px;
     left: 1000px;
     position: absolute;

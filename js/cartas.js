@@ -9,7 +9,7 @@ for (let i = 1; i <= 13; i++) {
         valor : i,
         color: 'negro',
         tipo: 'pica',
-        imagen: 'img/' + i + 'P.PNG'
+        imagen: 'img/' + i + 'S.svg'
     })
     
     // TREBOLES
@@ -17,7 +17,7 @@ for (let i = 1; i <= 13; i++) {
         valor : i,
         color: 'negro',
         tipo: 'trebol',
-        imagen: 'img/' + i + 'T.PNG'
+        imagen: 'img/' + i + 'C.svg'
     })
 
     // CORAZONES
@@ -25,7 +25,7 @@ for (let i = 1; i <= 13; i++) {
         valor : i,
         color: 'rojo',
         tipo: 'corazon',
-        imagen: 'img/' + i + 'C.PNG'
+        imagen: 'img/' + i + 'H.svg'
     })
 
     // DIAMANTES
@@ -33,7 +33,7 @@ for (let i = 1; i <= 13; i++) {
         valor : i,
         color: 'rojo',
         tipo: 'diamante',
-        imagen: 'img/' + i + 'D.PNG'
+        imagen: 'img/' + i + 'D.svg'
     })
 
 }
